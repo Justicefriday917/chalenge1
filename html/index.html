@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css files/index.css">
+    <script src="../javascript/index.js">javascript</script>
 </head>
-<body>
+<body id="demo">
     <header>
         <div class="head"><h1>Registration Form</h1></p></div>
     </header>
-    <div class="form_body ">
+    <div class="form_body "  >
         <div class="register">
             <h3>
                 Register Here
             </h3>
         </div>
-        <div class="form">
-            <form action="" class="flex" >
+        <div class="form" >
+            <form action="" class="flex" id="demo">
                 <div class="fName">
                     <label for="">First Name</label>
                     <input class="inputlenth" type="text" placeholder="Enter your First Name">
@@ -44,7 +45,7 @@
                     <input class="inputlenth" type="text" placeholder="Enter your Nationality">
                 </div>
                 <div class="gender">
-                    <h4>Gender</h4><br>
+                    <label>Gender</label><br>
                     <label for="genderm">Male</label>
                     <input type="radio" name="gender" id="genderm"><br>
                     <label for="genderf">Female</label>
@@ -53,10 +54,10 @@
                 
 
                 <div class="courses">
-                    <h4>Course of study</h4>
+                    <label>Course of study</label><br>
                     <label for="wd">Web Development</label>
                     <input type="checkbox"id="wd"><br>
-                    <label for="ad">Adroid Development</label>
+                    <label for="ad">Android Development</label>
                     <input type="checkbox"id="ad"><br>
                     <label for="dd">Desktop Development</label>
                     <input type="checkbox"id="dd"><br>
@@ -67,15 +68,23 @@
                     <label for="ui">UI/UX Design</label>
                     <input type="checkbox"id="ui"><br>
                     <label for="pm">Project Manager</label>
-                    <input type="checkbox"  id="pm"><br>
+                    <input type="checkbox"  id="pm" disabled><br>
                 </div>
                 <div class="butt">
-                    <input type="submit">
+                    <input type="submit" onclick="me">
                 </div>
             </form>
             
         </div>
+        <h3  onclick="myFunction()">Change background Color</h3>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.backgroundColor = "black";
+}
+</script>
  
     </div>
+    <br><br><br>
 </body>
 </html>

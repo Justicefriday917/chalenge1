@@ -4,6 +4,7 @@
     margin: 0;
     font-family: sans-serif;
     text-align: center;
+    background-color: rgb(58, 90, 95);
     
 }
 .flex{
@@ -15,6 +16,9 @@
     width: 250px;
     height: 2.5rem;
     border-radius: 5px;
+    background-color: rgba(1, 52, 59, 0.3);
+    margin-top: 10px;
+
 }
 .form_body{
     width: 600px;
@@ -28,7 +32,8 @@
 
 ::placeholder{
     font-size: 12px;
-    color: rgb(196, 185, 185);
+    color: rgb(72, 111, 117);
+     
 }
 .courses input,.gender input{
     margin-top: 20px;
@@ -42,14 +47,14 @@ h3{
     padding: 30px;
 }
 label{
-    font-size: large;
+    font-size: xlarge;
     color:whitesmoke;
-    /* text-shadow: 2px 2px 5px black; */
 }
 input{
     border: 0px;
     box-shadow: 2px 2px 10px black;
     color: black;
+    margin-right: 15px;
 
 }
 .butt input{
@@ -59,8 +64,11 @@ input{
     display: block;
     margin-left: 50%;
     margin-bottom: 10px;
+    background-color: rgba(1, 52, 59, 0.3);
+
+
 }
 .butt input:hover{
     background-color: transparent;
-    border: 1px solid whitesmoke;
+    color: white;
 }

@@ -8,24 +8,38 @@
 //     console.log(noun[z] ,verb[z] + " eating it raw")
 //     console.log("please can you call me " +adjective[y],noun[z])
 // }
-// sentence(1,3,3)
+// sentence(0,1,2)
 
 // almighty formula
-// function almightyFomula(a,b,c){
-//     d = Math.sqrt((b**2)-4*a*c);
-//     if(d < 0){
-//         console.log("undefined")
-//     }
-//     else{
-//         console.log(x1 = (-b - d)/2*a);
-//         console.log(x1 = (-b + d)/2*a);
 
-//     }
-// };
-// almightyFomula(2,3,1);
+function almightyFomula(a,b,c){
+    let a = prompt("enter value for  a");
+    let b = prompt("enter value for  b");
+    let c = prompt("enter value for  c");
+    d = Math.sqrt((b**2)-4*a*c);
+    if(d < 0){
+        alert("undefined mathematical")
+    }
+    else{
+        alert("X1 = ", x1 = (-b - d)/2*a, "\nX2 = ", x1 = (-b + d)/2*a);
+    }
+};
+function almightyFomula(a,b,c);
+function me(){
+    alert("done")
+}
 
 
 // let NamesOfStudents = ["paul", "Chioma", "Precious","Thessy","blessing","brenda","chisom","Justice","Edikan"]
 // console.log(NamesOfStudents[7])
 
 
+// let reL = prompt("what is your name");
+// let relA = rel.slice(0,1);
+// alert("Welcome on board, " +relA+rel.slice(1,rel.lenght));
+
+// let tree = "jim";
+// console.log(tree.toUpperCase());
+// console.log("print")
+// prompt("welcome");
+// document.getElementById("#form").style.backgroundColor = "lightblue";
